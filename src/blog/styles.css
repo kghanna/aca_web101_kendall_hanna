@@ -1,3 +1,15 @@
+.h1 {
+  width: 60%;
+margin: 5% auto;
+}
+.body {
+background-color: aquamarine;
+}
+.main {
+background-color: blanchedalmond;
+width: 60%;
+margin: 5% auto;
+}
 .main-container {
   height: 100%;
   width: 100%;
