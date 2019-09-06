@@ -1,15 +1,18 @@
-.h1 {
+h1 {
   width: 60%;
 margin: 5% auto;
 }
-.body {
+
+body {
 background-color: aquamarine;
 }
-.main {
+main {
 background-color: blanchedalmond;
 width: 60%;
 margin: 5% auto;
 }
+
+/*
 .main-container {
   height: 100%;
   width: 100%;
@@ -19,4 +22,8 @@ margin: 5% auto;
   width: 60%;
   height: 100px;
   border: 1px solid pink;
+}
+.h1 {
+  width: 60%;
+margin: 5% auto;
 }
