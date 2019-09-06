@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  padding: 1%;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h5 {
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.main-container {
+  padding: 10%;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-container {
+
+  background-color: aqua;
+}
+
+@media 
+  (min-width: 576px) {
+  }
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+}
