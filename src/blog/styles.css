@@ -1,29 +1,37 @@
-h1 {
-  width: 60%;
-margin: 5% auto;
-}
-
 body {
-background-color: aquamarine;
-}
-main {
-background-color: blanchedalmond;
-width: 60%;
-margin: 5% auto;
+    background-image: url("./pawel-czerwinski-P5065oKc1b0-unsplash.jpg"); 
+    background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
 }
 
-/*
-.main-container {
-  height: 100%;
-  width: 100%;
-  border: 1px solid pink;
+h1 {
+    width: 60%;
+    margin: 5% auto;
 }
-.blog-container {
-  width: 60%;
-  height: 100px;
-  border: 1px solid pink;
+
+main {
+    background-color:
+    width: 60%;
+    margin: 5% auto;
 }
-.h1 {
-  width: 60%;
-margin: 5% auto;
+
+article {
+    margin: 1% auto;
+    width: 60%;
+    background:#F1F2EB;
+    padding: 2%;
+}
+
+article > h3 {
+    font-size: 1em;
+}
+
+
+article:hover {
+    background-color: #A4C2A5;
+}
+
+article:hover > h3 {
+    color:#566246;
 }
