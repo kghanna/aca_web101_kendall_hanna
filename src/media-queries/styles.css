@@ -4,16 +4,15 @@
 body {
   margin: 0;
 }
-.column {
+
+#left {
+  width: 90%;
   float: left;
 }
 
-.left {
-  width: 75%;
-}
-
-.right {
-  width: 25%;
+#right {
+  width: 10%;
+  float: right;
 }
 
 .row:after {
@@ -73,9 +72,15 @@ button {
         text-decoration: none;
         font-size: 17px;
       }
+      #right {
+        display: none;
+        }
   }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  #right {
+    display: none;
+    }
 
 }
 
