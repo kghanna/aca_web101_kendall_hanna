@@ -1,0 +1,24 @@
+body {
+  margin: 0  auto;
+  width: 850px;
+
+}
+main {
+  margin: 0 auto;
+  height: 450px;
+  background-image: url(./nasa-yZygONrUBe8-unsplash.jpg);
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+section {
+  display: flex;
+  height: 342px;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+article {
+  width: 270px;
+  height: 374px;
+  background-color: rgb(224, 222, 222);
+}
