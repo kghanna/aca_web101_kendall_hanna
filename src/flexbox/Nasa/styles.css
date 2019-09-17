@@ -4,21 +4,30 @@ body {
 
 }
 main {
+  
   margin: 0 auto;
   height: 450px;
   background-image: url(./nasa-yZygONrUBe8-unsplash.jpg);
   color: white;
   font-family: 'Titillium Web', sans-serif;
 }
+h1 {
+  text-align: center;
+}
+
 section {
   display: flex;
   height: 342px;
   flex-direction: row;
   justify-content: space-between;
+  background-color:rgb(224, 222, 222); 
+  font-family: 'Titillium Web', sans-serif;
   
 }
 article {
   width: 270px;
   height: 374px;
   background-color: rgb(224, 222, 222);
+  text-align: center;
+  padding: 
 }
