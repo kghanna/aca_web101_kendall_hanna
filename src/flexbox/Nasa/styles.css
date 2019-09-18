@@ -1,33 +1,44 @@
 body {
   margin: 0  auto;
   width: 850px;
-
 }
+
 main {
-  
   margin: 0 auto;
-  height: 450px;
+  margin-bottom: 3%;
+  height: 70%;
   background-image: url(./nasa-yZygONrUBe8-unsplash.jpg);
   color: white;
   font-family: 'Titillium Web', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 h1 {
+  font-size: 80px;
   text-align: center;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
-
+h2 {
+  text-align: left;
+  padding-left: 10%;
+}
+ul {
+  text-align: left;
+  padding-left: 10%;
+}
 section {
   display: flex;
-  height: 342px;
+  width: 100%;
+  height: 50%;
   flex-direction: row;
   justify-content: space-between;
   background-color:rgb(224, 222, 222); 
-  font-family: 'Titillium Web', sans-serif;
-  
+  font-family: 'Titillium Web', sans-serif; 
 }
 article {
-  width: 270px;
-  height: 374px;
-  background-color: rgb(224, 222, 222);
   text-align: center;
-  padding: 
+  background-color:rgb(224, 222, 222); 
+  margin: 1%;
 }
