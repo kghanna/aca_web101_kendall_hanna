@@ -1,4 +1,4 @@
-* {
+ * {
   box-sizing:  border-box
 }
 
@@ -7,40 +7,81 @@ body {
   padding: 0;
 }
 .grid-container {
-  height:100%;
+  height: 100%;
   width: 100%;
- display: grid;
- grid-template-columns: 15% 30% 50% 30% 40% ;
- grid-template-rows: 25% 15% 20% 1fr;
+  display: grid;
+  grid-template-columns: 1fr 10% 10% 10% 10% 10% 10% 10% 10% 1fr;
+ grid-template-rows: 10% 20% 15% 25% 1fr;
 }
 .box {
   height: 100%;
   width: 100%;
 }
-.red-box {
-  background: red;
-  grid-column: 3/4;
-  grid-row: 2/3;
-}
-.blue-box {
-  background: blue;
-  grid-column: 4/6;
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row: 4/-1;
-  margin-left: 59px;
-}
-.yellow-box {
-  background: yellow;
-  grid-column: 2/5;
-  grid-row: 4/5;
-  padding: 1 em 15px
-}
-.pink-box {
+/* img {
+  box-sizing: border-box;
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  padding: 3px;
+} */
+
+.lifestyle {
   background: pink;
+  grid-column: 3;
+  grid-row: 2;
 }
-.green-box {
-  background: green;
+.fashion {
+  background: yellowgreen;
+  grid-column: 3 / 5;
+  grid-row: 3;
+  
+}
+.fashion .h3 {
+  text-align: center;
+}
+.shop {
+  background: pink;
+  grid-column: 5;
+  grid-row: 2;
+}
+.faq {
+  background: pink;
+  grid-column: 7;
+  grid-row: 2;
+}
+.hamburger {
+  background: pink;
+  grid-column: 9;
+  grid-row: 2;
+}
+
+/* NEXT ROW */
+
+.image-left {
+  background: pink;
+  grid-column: 1;
+  grid-row: 3/5;
+}
+.image-middle {
+  background:blue;
+  grid-column: 5 / 7;
+  grid-row: 5;
+}
+.image-right {
+  background:blue;
+  grid-column: 7 /-1;
+  grid-row: 4;
+}
+.elise {
+  background: fuchsia;
+  grid-column: 3 / 8;
+  grid-row: 4;
+}
+h1 {
+  text-size-adjust: 
 }
 
 /* * {
